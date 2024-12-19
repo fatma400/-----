@@ -1,0 +1,70 @@
+.pragraph{
+    border-top:2px solid #E5BC62;
+    border-bottom:2px solid #B51B20;
+    border-radius: 20px 20px 0 0;
+    color: black;
+    height:120px;
+    padding: 20px 30px;
+     h3{
+        font-size:22px;
+          span{
+                font-weight:400;
+                transition:all .4s ease;
+           }
+        }
+        &:hover span{
+            background-color:#B51B20;
+            color: #fff;
+        }
+}
+@media screen and (max-width:992px){
+    .pragraph{
+        height:130px;
+    }
+}
+@media screen and (max-width:800px){
+    .pragraph{
+        height:90px;
+    }
+}
+@media screen and (max-width:400px){
+    .partDrama{
+        .drama{
+            padding:0 10px;
+            width: 100px;
+            height:30px;
+            border-radius:15px 15px 0 0;
+            h2{
+                font-size:18px;
+            }
+        }
+        img{
+            width:100%;
+            border-radius: 0;
+            margin-left:30px;
+        }
+        .pragraph{
+            width:100%;
+            padding:5px 5px;
+            margin-left:60px;
+            height:auto;
+            h3{
+                font-size:14px;
+            }
+        }
+    }
+   footer{
+    .logo-footer{
+        width:200px;
+        background-color: #B51B20;
+        border: 2px solid #E5BC62;
+        border-radius: 0 0 100px 100px;
+        text-align: center;
+        margin: 0 auto;
+        img{
+            width:100px;
+            text-align: center;
+        }
+    }
+   }
+}

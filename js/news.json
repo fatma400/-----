@@ -1,0 +1,22 @@
+[
+    {
+        "img":"img/amr dyab.jpg",
+        "title":"بعد إحالته للمحاكمة.. القصة الكاملة لأزمة عمرو دياب مع الشاب المصفوع",
+        "links":"./musicNewsAmrMhkama.html"
+    },
+    {
+        "img":"img/hend restom.jpg",
+        "title":"رفضت لقب الإغراء واعترضت على سيدة الشاشة العربية.. أسرار هند رستم في ذكرى ميلادها",
+        "links":"./cinemaNewsHendRotem.html"
+    },
+    {
+        "img":"img/marriage.jpg",
+        "title":"بحضور الهضبة.. الموسيقار هاني فرحات يحتفل بعقد قرانه",
+        "links":"./musicNewsPartyFarhat.html"
+    },
+    {
+        "img":"img/mostafa shaban.jpg",
+        "title":"نار الغيرة تشتعل بين مصطفى شعبان ومحمد نجاتي.. ما القصة؟",
+        "links":"./dramaNewsMosatafa.html"
+    }
+]

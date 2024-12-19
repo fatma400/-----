@@ -1,0 +1,83 @@
+.defin h4 {
+  color: #6c757d;
+  margin-right: 60px;
+  margin-top: 30px;
+  padding: 0 50px;
+}
+
+.drama .drama1 {
+  margin-top: 60px;
+}
+.drama .textDrama {
+  height: 120px !important;
+}
+.drama .textDrama h3 {
+  font-size: 23px;
+  height: 0;
+}
+.drama .textDrama h3 span {
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+.drama .textDrama:hover span {
+  background-color: #B51B20;
+  color: #fff;
+}
+.drama .btn-group {
+  justify-content: center;
+}
+.drama .btn-group a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #B51B20;
+  border: 2px solid #6c757d;
+  padding: 3px 12px;
+  margin: 30px 8px;
+}
+.drama #active {
+  background-color: #B51B20;
+  color: #fff !important;
+  border: 0;
+  padding: 3px 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .textDrama {
+    height: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .partDrama .drama {
+    padding: 0 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px 15px 0 0;
+  }
+  .partDrama .drama h2 {
+    font-size: 18px;
+  }
+  .partDrama img {
+    width: 100%;
+    border-radius: 0;
+  }
+  .partDrama .textDrama {
+    width: 100px;
+    padding: 5px 5px;
+    height: 190px;
+  }
+  .partDrama .textDrama h3 {
+    font-size: 14px;
+  }
+  footer .logo-footer {
+    width: 200px;
+    background-color: #B51B20;
+    border: 2px solid #E5BC62;
+    border-radius: 0 0 100px 100px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  footer .logo-footer img {
+    width: 100px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=dramaStyle.css.map */

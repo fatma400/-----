@@ -1,0 +1,1204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    direction: rtl;
+    font-family: "Tajawal", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:#f2f2f2;
+}
+.header-icons {
+    text-align: left;
+    background-color: #f2f2f2;
+    padding: 0 20px 20px;
+    margin-top:3px;
+}
+.icons-links{
+    i{
+        background-color:black;
+        border-radius: 20px;
+        padding:7px 10px;
+        color: white;
+        margin-top: 8px;
+        font-size:18px;
+        margin-left:6px;
+        transform: all .5s ease;
+        &:hover{
+            background-color: #E5BC62;
+        }
+        &:hover.fa-instagram{
+            background: #E5BC62;
+        }
+    }
+    .fa-instagram{
+        background:linear-gradient(to top left, rgb(172, 69, 220),rgb(245, 181, 61) ); 
+    }
+    .fa-youtube{
+        background-color: red;
+    }
+    .fa-facebook-f{
+        background-color: blue;
+    } 
+}
+.title-website{
+    text-align: center;
+    background-color: #fff;
+    img{
+        width:190px;
+        margin-top:7px;
+    }
+}
+nav{
+    background-color: #B51B20;
+    border-radius:0 0 40px 40px ;
+    margin:3px 13px;
+    .nav-link{
+        font-size:15px;
+        color: #fff;
+        font-weight:400;
+        position: relative;
+        transition: all .5s ease;
+        &::before{
+            content: "";
+            width: 43px;
+            height: 2px;
+            border-top: 3px solid #E5BC62;
+            position: absolute;
+            top: -9px;
+            left:10px;
+            opacity:0;
+        }
+        &:hover{
+            color: #fff;
+        }
+        &:hover::before{
+            opacity: 1;
+        }
+    } 
+}
+.header-fixed{
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: #B51B20;
+    border-radius: 0 0 40px 40px;
+    border-bottom: 2px solid #E5BC62;
+    width:98%;
+    height:60px;
+    z-index: 1;
+    transition: all .5s ease-in;
+}
+.all-news{
+    margin-top:22px;
+    a{
+        text-decoration: none;
+    }
+    img{
+       margin-right:90px;
+        width:800px;
+        height: 400px;
+        border-radius:0 0 30px 30px ;
+    }
+    .news-text{
+        background-color: #B51B20;
+        color: #fff;
+        text-align: center;
+        border-radius:30px;
+        height:100px;
+        width:800px;
+        margin-right:90px;
+        padding:10px 30px;
+        margin-top:5px;
+    }
+}
+.partDrama{
+    background-color: #fff;
+    padding: 10px 50px;
+    margin: 50px 80px;
+    border-top: 2px solid #B51B20;
+    border-radius: 40px 40px 0 0;
+    position: relative;
+    .drama{
+        background-color: #B51B20;
+        display: inline-block;
+        padding:0 20px;
+        border-radius: 0 0 20px 20px;
+        width: 200px;
+        height: 45px;
+        position: absolute;
+        top: 0;
+        h2{
+            color: #fff;
+            text-align: center;
+        }
+    }
+    .information-drama{
+        margin-top:55px;
+    }
+    img{
+        border-radius:0 0 30px 30px 
+    }
+    .information-drama2{
+        margin-top:30px;
+        .textDrama{
+            padding: 0 0;
+            height:100px;
+            h3{
+                font-size:22px;
+            }
+        }
+    }
+    .textDrama{
+        border-top:2px solid #E5BC62;
+        border-bottom:2px solid #B51B20;
+        border-radius: 20px 20px 0 0;
+        color: black;
+        height: 100px;
+        padding: 20px 30px;
+    }
+}
+.btn{
+    margin-top:20px;
+    text-align: center;
+    border-top: 1px solid #E5BC62;
+    position: relative;
+    margin-bottom: 50px;
+    .btn-Drama{
+        color: black;
+        border:1px solid #B51B20;
+        border-top: none;
+        padding: 5px 70px;
+        border-radius:0 0 20px 20px;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight:400;
+        position:absolute;
+        top: 0;
+        right: 40%;
+        transition: all .5s ease;
+        i{
+            color: #E5BC62;
+            line-height:1.5;
+            padding: 8px 5px;
+            font-size: 13px;
+        }
+        &:hover{
+            background-color: #B51B20;
+            color: #fff;
+        }
+    }
+}
+.cinema-part{
+    img{
+        width: 500px;
+    }
+  
+    .mt{
+        margin-top:55px;
+    }
+    .cinemaText{
+        border-top:2px solid #E5BC62;
+        border-bottom:2px solid #B51B20;
+        border-radius: 20px 20px 0 0;
+        color: black;
+        height: 100px;
+        padding: 20px 30px;
+       h3{
+        font-size:22px;
+       }
+    }
+    .cinema-part2{
+        img{
+            width: 480px;
+            height: 685px;
+        }
+    }
+    .sexondNews-cinema{
+        display: flex;
+        margin-top: 30px;
+        .secCinema{
+            display: flex;
+            margin-left: 20px;
+            margin-bottom:20px;
+            img{
+                width:170px;
+                border-radius: 0 10px 10px 0;
+            }
+            .text-cinema{
+                border:2px solid #E5BC62;
+                border-right:2px solid #B51B20;
+                border-bottom: none;
+                border-radius: 20px 20px 0 0;
+                color: black;
+                h2{
+                    font-size:20px;
+                    padding: 0 8px;
+                }
+            }
+        }
+    }
+    @extend .partDrama  
+}
+.cinema{
+    background-color: #B51B20;
+    display: inline-block;
+    padding:0 20px;
+    border-radius: 0 0 20px 20px;
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    h2{
+        color: #fff;
+        text-align: center;
+        margin-bottom: 30px;
+    }  
+}
+.musicSection{
+    position: relative;
+    background-color: #fff;
+    padding: 10px 50px;
+    margin: 50px 80px;
+    border-top: 2px solid #B51B20;
+    border-radius: 40px 40px 0 0;
+    .someNews-music{
+        margin-top: 50px;
+    }
+    .part1-music{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom:20px;
+        img{
+            width:170px;
+            border-radius: 0 10px 10px 0;
+        }
+    }
+    .text-music{
+        border:2px solid #E5BC62;
+        border-right:2px solid #B51B20;
+        border-bottom: none;
+        border-radius: 20px 0 0 20px;
+        color: black;
+        h3{
+            font-size:24px;
+        }
+    }
+     .part2-music{
+        img{
+            border-radius: 0 0 20px 20px;
+        }
+        .text-part2{
+            border-top:4px solid #E5BC62;
+            border-bottom:2px solid #B51B20;
+            border-radius: 20px 20px 0 0;
+            color: black;
+            height: 100px;
+            padding: 20px 30px;
+           h3{
+            font-size:22px;
+           }
+        }
+    }
+}
+.Satellitechannels{
+    position: relative;
+    background-color: #fff;
+    padding: 10px 50px;
+    margin: 50px 80px;
+    border-top: 2px solid #B51B20;
+    border-radius: 40px 40px 0 0;
+    .img-part1{
+        margin-top:55px;
+    }
+    .text-part1,.text-cinema{
+        border-top:3px solid #E5BC62;
+        border-right:2px solid #B51B20;
+        border-bottom: none;
+        border-radius: 20px 0 0 20px;
+        color: black;
+        margin-bottom: 20px;
+        h3{
+            font-size:24px;
+        }
+    }
+    .sexondNews-cinema{
+        display: flex;
+        .secCinema{
+            display: flex;
+            margin-left: 20px;
+            margin-bottom:20px;
+        }
+        img{
+            width:170px;
+            border-radius: 0 10px 10px 0;
+        }
+        h3{
+            font-size:20px;
+            color: black;
+        }
+    }
+   
+}
+.videoSection{
+    position: relative;
+    background-color:#1e1e1e;
+    padding: 10px 50px;
+    margin: 50px 80px;
+    border-top: 2px solid #B51B20;
+    border-radius: 40px 40px 0 0;
+   .video-part{
+    margin-top: 65px;
+   }
+   .cinema{
+    left:40%;
+   }
+   img{
+    border-radius: 0 0 20px 20px;
+    border-bottom:1px solid #E5BC62;
+   }
+   .text-video{
+    border-top:3px solid #E5BC62;
+    border-bottom:2px solid #B51B20;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    h3{
+        font-size:22px;
+        margin-bottom: 20px;
+        margin-top: 35px;
+    }
+    span{
+        background-color:#1e1e1e;
+        padding: 8px 10px;
+        border-radius:55px;
+        position: absolute;
+        top: -28px;
+        right: 20px;
+        i{
+            line-height:1.5;
+            padding: 10px 15px;
+            font-size: 13px;
+            background-color:#B51B20;
+            border-radius:2rem;
+            border-bottom: 1px solid #E5BC62;
+        }
+    }
+    }   
+    .btn{
+        border-top: 1px solid #B51B20;
+        .btn-Drama{
+            border:1px solid #B51B20;
+            color: #fff;
+            i{
+                color: #fff;
+            }
+        }
+    }   
+}
+.womenSection{
+    position: relative;
+    background-color:#fff;
+    padding: 10px 50px;
+    margin: 50px 80px;
+    border-top: 2px solid #B51B20;
+    border-radius: 40px 40px 0 0;
+   img{
+    border-radius: 0 0 20px 20px;
+   }
+   .women-part{
+    margin-top: 55px;
+   }
+   .text-women{
+    border-top:3px solid #E5BC62;
+    border-bottom:2px solid #B51B20;
+    border-radius: 20px 20px 0 0;
+    color:black;
+    margin-bottom: 40px;
+    h3{
+        font-size:20px;
+        line-height:1.7;
+        margin-bottom: 10px;
+    }
+    }   
+}
+.Miscellaneous{
+    position: relative;
+    background-color:#fff;
+    padding: 10px 50px;
+    margin: 50px 80px;
+    border-top: 2px solid #B51B20;
+    border-radius: 40px 40px 0 0;
+   img{
+    border-radius: 0 20px 20px 0;
+    width: 150px;
+    border: 2px solid #E5BC62;
+    border-left: none;
+   }
+   .Miscellaneous-Part1{
+    margin-top:55px;
+    display: flex;
+    .Miscellaneous-allpart{
+        display: flex;
+    }
+   }
+   .Miscellaneous-part2{
+    display: flex;
+    .Miscellaneous-allpart{
+        display: flex;
+    }
+   }
+   .text-misc{
+    border-top:3px solid #E5BC62;
+    border-right:2px solid #B51B20;
+    border-radius: 20px 20px 0 0;
+    color:black;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    h3{
+        font-size:20px;
+        line-height:1.7;
+        margin-bottom: 10px;
+    }
+}
+}
+footer{
+    background-color: #4a4a4a;
+    padding-bottom:40px;
+    .logo-footer{
+        width:400px;
+        background-color: #B51B20;
+        border: 2px solid #E5BC62;
+        border-radius: 0 0 100px 100px;
+        text-align: center;
+        margin: 0 auto;
+        img{
+            width:200px;
+            text-align: center;
+        }
+    }
+    .icons-links{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .links-footer{
+        ul{
+            display: flex;
+            justify-content:center; 
+            position: relative;
+            margin-top: 20px;
+            &::after{
+                content: '';
+                position: absolute;
+                background-color:#1e1e1e;
+                width: 50%;
+                height:1px;
+                bottom: -12px;
+                right: 25%;
+            }
+        }
+        a{
+            color: #fff;
+            margin-left: 20px;
+            transition: all .3s ease;
+            &:hover{
+                color: #E5BC62;
+            }
+        }
+    }
+}
+@media screen and (max-width:992px){
+   *{
+    font-size: 18px;
+   }
+   .icons-links{
+     i{
+        padding:6px 8px;
+        margin-top: 8px;
+        font-size:15px;
+        }
+    }
+    .title-website{
+        img{
+            width:120px;
+            margin-right:90px;
+        }
+    }
+    nav{
+        border-radius:0 0 30px 30px ;
+        height: 40px;
+        .nav-link{
+        font-size:16px;
+        font-weight:300;
+        padding-right:20px ;
+        } 
+    }
+    .all-news{
+        margin-right: 60px;
+
+        img{
+           margin-right:90px;
+            width:600px;
+            height:350px;
+        }
+        h2{
+            font-size:22px;
+        }
+        .news-text{
+            height:78px;
+            width:595px;
+        }
+    }
+    .partDrama{
+        padding: 10px 30px;
+        margin: 50px 40px;
+        .drama{
+            padding:0 15px;
+            width: 180px;
+            height:42px;
+            h2{
+                font-size:27px;
+            }
+        }
+        .information-drama{
+            margin-top:55px;
+        }
+        img{
+            border-radius:0 0 30px 30px 
+        }
+        h3{
+            font-size:20px;
+        }
+        .information-drama2{
+            margin-top:30px;
+            .textDrama{
+                padding: 0 0;
+                height:90px;
+                h3{
+                    font-size:18px;
+                }
+            }
+        }
+        .textDrama{
+            border-top:2px solid #E5BC62;
+            border-bottom:2px solid #B51B20;
+            border-radius: 20px 20px 0 0;
+            color: black;
+            height:90px;
+            padding:20px 20px;
+        }
+    }
+    .cinema-part{
+        padding: 10px 2px;
+        margin: 50px 0;
+        img{
+            width:350px;
+            margin-right:90px;
+            padding-right:20px;
+        }
+        .cinemaText{
+            height:83px;
+            margin-right:90px;
+            padding-right:30px;
+            padding:10px 20px;
+            width: 400px;
+           h3{
+            font-size:18px;
+           }
+        }
+        .cinema-part2{
+            .cinemaText{
+                margin-right:90px;
+            }
+            img{
+                width:490px;
+                height:480px;
+                margin-right:30px;
+            }
+        }
+        .sexondNews-cinema{
+            .secCinema{
+                margin-left:30px;
+                margin-bottom:20px;
+                img{
+                    width:170px;
+                    margin: 0 auto;
+                }
+                .text-cinema{
+                    h2{
+                        font-size:18px;
+                        padding: 0 2px;
+                    }
+                }
+            }
+        }
+    }
+    .cinema{
+        padding:0 15px;
+        h2{
+            font-size:27px;
+        }  
+    }
+    .musicSection{
+        padding: 10px 20px;
+        margin: 50px 20px;
+        .text-music{
+            h3{
+                font-size:19px;
+            }
+        }
+         .part2-music{
+            .text-part2{
+                border-top:4px solid #E5BC62;
+                border-bottom:2px solid #B51B20;
+                border-radius: 20px 20px 0 0;
+                color: black;
+                height:90px;
+                padding: 20px 30px;
+               h3{
+                font-size:19px;
+               }
+            }
+        }
+    }
+    .Satellitechannels{
+        padding: 10px 20px;
+        margin: 50px 20px;
+        .text-part1,.text-cinema{
+            h3{
+                font-size:18px;
+                line-height: 1.5;
+            }
+        }
+        .sexondNews-cinema{
+            .secCinema{
+                margin-left:10px;
+            }
+            img{
+                width:150px;
+            }
+            h3{
+                font-size:18px;
+            }
+        }
+       
+    }
+    .videoSection{
+        padding: 10px 20px;
+        margin: 50px 00px;
+       .cinema{
+        left:40%;
+        h2{
+            font-size:24px;
+        }
+       }
+       .text-video{
+        h3{
+            font-size:18px;
+            margin-top:28px;
+        }
+        span{
+            padding: 4px 7px;
+            i{
+                padding: 8px 13px;
+                font-size: 13px;
+            }
+        }
+        }   
+    }
+    .womenSection{
+        padding: 10px 20px;
+        margin: 50px 20px;
+        h2{
+            font-size: 24px;
+        }
+       .text-women{
+        h3{
+            font-size:19px;
+            line-height:1.7;
+            margin-bottom: 10px;
+        }
+        }   
+    }
+    .Miscellaneous{
+        padding: 10px 20px;
+        margin: 50px 20px;
+       img{
+        border-radius: 0 20px 20px 0;
+        width: 150px;
+       }
+       .Miscellaneous-Part1{
+        margin-top:55px;
+        display: flex;
+        .Miscellaneous-allpart{
+            display: flex;
+        }
+       }
+       .Miscellaneous-part2{
+        display: flex;
+        .Miscellaneous-allpart{
+            display: flex;
+        }
+       }
+       .text-misc{
+        border-top:3px solid #E5BC62;
+        border-right:2px solid #B51B20;
+        border-radius: 20px 20px 0 0;
+        color:black;
+        margin-bottom: 40px;
+        margin-right: 20px;
+        padding: 5px 10px;
+        h3{
+            font-size:20px;
+            line-height:1.7;
+            margin-bottom: 10px;
+        }
+    }
+    }
+    #community{
+        h3{
+            font-size: 18px;
+        }
+        .text{
+            height:100px;
+        }
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        direction: ltr;
+    }
+       nav{
+           height: auto;
+       }
+       .all-news{
+        margin:35px auto;
+        h2{
+            font-size:18px;
+        }
+        .news-text{
+            height:70px;
+            width:580px;
+        }
+    }
+    .partDrama{
+        padding: 10px 20px;
+        margin: 50px 80px;
+        .drama{
+            h2{
+                font-size:25px;
+            }
+        }
+        h3{
+            font-size:19px;
+        }
+        .information-drama2{
+            margin-top:50px;
+            .textDrama{
+                h3{
+                    font-size:18px;
+                }
+            }
+        }
+        .textDrama{
+            height:86px;
+            padding:0 20px;
+        }
+    }
+    .btn{
+        .btn-Drama{
+            padding: 1px 50px;
+            font-size:18px;
+            right: 30%;
+            i{
+                font-size:12px;
+            }
+        }
+    }
+    .header-fixed{
+        width:1300px;
+        height:60px;
+    }
+    .cinema-part{
+        padding: 10px 2px;
+        margin: 50px 0;
+        img{
+            width:500px;
+            margin-right:50px;
+            padding-right:0;
+        }
+        .cinemaText{
+            height:83px;
+            margin-right:70px;
+            padding-right:0;
+            padding:10px 20px;
+            width:470px;
+           h3{
+            font-size:18px;
+           }
+        }
+        .cinema-part2{
+            .cinemaText{
+                width: 500px;
+                margin-right:50px;
+            }
+            img{
+                width:600px;
+                height:450px;
+                margin-right:10px;
+            }
+        }
+        .sexondNews-cinema{
+            .secCinema{
+                margin-left:50px;
+                margin-bottom:20px;
+                img{
+                    width:170px;
+                    margin: 0 auto;
+                }
+                .text-cinema{
+                    h2{
+                        font-size:16px;
+                        padding: 0 2px;
+                    }
+                }
+            }
+        }
+    }
+    .cinema{
+        padding:0 15px;
+        h2{
+            font-size:27px;
+        }  
+    }
+    .musicSection{
+        padding: 10px 20px;
+        margin: 50px 20px;
+        .media{
+            .text-music{
+                width: 700px;
+            }
+        }
+        .part1-music{
+            img{
+                width:220px;
+            }
+        }
+         .part2-music{
+            .text-part2{
+                height:90px;
+                padding: 20px 0;
+               h3{
+                font-size:19px;
+               }
+            }
+        }
+    }
+    .Satellitechannels{
+        padding: 10px 20px;
+        margin: 50px 20px;
+        .text-part1,.text-cinema{
+            h3{
+                font-size:17px;
+            }
+        }
+        .sexondNews-cinema{
+            .secCinema{
+                margin-top: 40px;
+                margin-left:0;
+                display: block;
+            }
+            .text-cinema{
+                width:335px;
+                height: 40px;
+            }
+            img{
+                width:130px;
+            }
+            h3{
+                font-size:16px;
+            }
+        }
+       
+    }
+    .Miscellaneous{
+        padding: 10px 20px;
+        margin: 50px 20px;
+       img{
+        border-radius: 0 20px 20px 0;
+        width: 150px;
+       }
+       .Miscellaneous-Part1{
+        margin-top:55px;
+        display: flex;
+        .Miscellaneous-allpart{
+            display: flex;
+        }
+       }
+       .Miscellaneous-part2{
+        display: flex;
+        .Miscellaneous-allpart{
+            display: flex;
+        }
+       }
+       .text-misc{
+        margin-right:0;
+        padding: 5px 0;
+        h3{
+            font-size:17px;
+            line-height:1.7;
+            margin-bottom: 10px;
+        }
+    }
+    }
+}
+@media screen and (max-width:600px){
+     .all-news{
+        img{
+            width:500px;
+            height:350px;
+            margin:25px auto;
+        }
+        h2{
+            font-size:16px;
+        }
+        .news-text{
+            height:70px;
+            width:470px;
+            margin:1px auto;
+        }
+    }
+    .cinema-part{
+        padding: 10px 2px;
+        margin: 50px 0;
+        img{
+            width:480px;
+            margin-right:0;
+            padding-right:0;
+        }
+        .cinemaText{
+            padding-right:0;
+            padding:10px 0;
+            width:450px;
+           h3{
+            font-size:18px;
+           }
+        }
+        .cinema-part2{
+            .cinemaText{
+                margin-right:0;
+            }
+            img{
+                width:480px;
+                height:250px;
+                margin-right:0;
+            }
+        }
+        .sexondNews-cinema{
+            display: block;
+            .secCinema{
+                margin-left:0;
+                img{
+                    width:140px;
+                    margin:0 0;
+                }
+                .text-cinema{
+                    height: 40px;
+                    h2{
+                        font-size:17px;
+                        padding: 0 2px;
+                    }
+                }
+            }
+        }
+    }
+    .cinema{
+        padding:0 15px;
+        h2{
+            font-size:24px;
+        }  
+    }
+    .Satellitechannels{
+        padding: 10px 20px;
+        margin: 50px 20px;
+        .text-part1,.text-cinema{
+            h3{
+                font-size:17px;
+            }
+        }
+        .sexondNews-cinema{
+            display: block;
+            .secCinema{
+                margin-left:0;
+                .text-cinema{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            img{
+                width: 100%;
+            }
+            h3{
+                font-size:18px;
+            }
+        }
+       
+    }
+    .text-women{
+        height:70px;
+    }
+    #community{
+        .text-women{
+            height:70px;
+        }
+    }
+    .Miscellaneous{
+        margin: 50px 0;
+        padding:0 60px;
+       img{
+        border-radius: 0 20px 20px 0;
+        width: 150px;
+       }
+       .Miscellaneous-Part1{
+        display: block;
+       }
+       .Miscellaneous-part2{
+        display: block;
+       }
+       .text-misc{
+        h3{
+            font-size:17px;
+        }
+    }
+    }
+    footer{
+        .logo-footer{
+            width:350px;
+            img{
+                width:150px;
+            }
+        }
+        .icons-links{
+            margin-top: 20px;
+        }
+        .links-footer{
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            a{
+                color: #fff;
+                margin-left:15px;
+            }
+        }
+    }
+}
+@media screen and (max-width:400px){
+    .all-news{
+       img{
+           width:300px;
+           height:200px;
+           margin:25px 0;
+       }
+       h2{
+           font-size:15px;
+       }
+       .news-text{
+           height:70px;
+           width:290px;
+           margin:1px 0;
+       }
+   }
+   .partDrama{
+    width:320px;
+    margin:20px 0;
+    padding: 0;
+    .drama{
+        right: 40px;
+    }
+   }
+   .cinema-part{
+    .cinema{
+        right:40px;
+    }
+    .cinema-part2{
+        img{
+            width: 100%;
+        }
+        .cinemaText{
+            width:100%;
+            margin: 0;
+            }
+    }
+    img{
+        width: 100%;
+    }
+    .cinemaText{
+    width:100%;
+    margin: 0;
+    }
+    .sexondNews-cinema{
+     
+        .text-cinema{
+            margin-bottom:50px;
+        }
+    }
+   }
+   .musicSection,.Satellitechannels,.videoSection,.womenSection{
+    width: 320px;
+    margin:20px 0;
+    padding: 0;
+    .someNews-music{
+        margin-top:55px;
+    }
+    .part1-music{
+        img{
+            width:170px;
+            height:140px;
+        }
+    }
+    .text-music{
+        height: auto;
+        h3{
+            font-size:17px;
+        }
+    }
+     .part2-music{
+        .text-part2{
+           h3{
+            font-size:19px;
+           }
+        }
+    }
+   }
+   .cinema{
+    right: 40px;
+   }
+  .Miscellaneous{
+    padding: 10px 0;
+    margin: 50px 0;
+    .text-misc{
+        height: auto;
+        h3{
+            font-size: 14px;
+        }
+    }
+    .Miscellaneous-Part1{
+        margin-top: 55px;
+    }
+  }
+}
