@@ -1130,4 +1130,8 @@ footer .links-footer a:hover {
   .Miscellaneous .Miscellaneous-Part1 {
     margin-top: 55px;
   }
+    .partDrama,.cinema-part,.musicSection,.Satellitechannels,.videoSection,.womenSection,.Miscellaneous,.all-news {
+    margin: 30px auto;
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
